@@ -1,0 +1,38 @@
+*{
+    background: black;
+    color: white;
+}
+.container{
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+      
+
+}
+.post{
+    width: 450px;
+    height: auto;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 2%;
+    border: 1px solid white;
+    
+
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.post-img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    
+}
+.post-description{
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+}
